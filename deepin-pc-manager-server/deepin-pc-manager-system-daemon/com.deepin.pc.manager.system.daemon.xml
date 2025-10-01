@@ -1,0 +1,27 @@
+<interface name="com.deepin.pc.manager.system.daemon">
+    <method name="StartApp">
+    </method>
+    <method name="ExitApp">
+    </method>
+    <method name="GetTrashFileCount">
+        <arg name="homepath" type="s" direction="in"/>
+        <arg name="count" type="d" direction="out"/>
+    </method>
+    <method name="GetCacheFileCount">
+        <arg name="count" type="d" direction="out"/>
+    </method>
+    <method name="GetLogFileCount">
+        <arg name="count" type="d" direction="out"/>
+    </method>
+    <method name="GetHistoryFileCount">
+        <arg name="homepath" type="s" direction="in"/>
+        <arg name="count" type="d" direction="out"/>
+    </method>
+    <method name="CleanTrashFiles">
+      <arg name="path" type="as" direction="in"></arg>
+      <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="QStringList"/>
+    </method>
+    <method name="ReplaceHostFile">
+        <arg name="homepath" type="s" direction="in"/>
+    </method>
+</interface>

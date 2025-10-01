@@ -1,28 +1,15 @@
-// Copyright (C) 2017 ~ 2019 Deepin Technology Co., Ltd.
 // SPDX-FileCopyrightText: 2024 UnionTech Software Technology Co., Ltd.
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include "defenderdbusservice.h"
 #include "window/mainwindow.h"
-
-#include <polkit-qt5-1/PolkitQt1/Authority>
+#include "defenderdbusservice.h"
 
 #include <DApplication>
-#include <DApplicationSettings>
-#include <DLog>
 #include <DWidgetUtil>
 
-#include <QAccessible>
-#include <QDBusConnection>
-#include <QDBusInterface>
-#include <QObject>
-
-DEF_USING_NAMESPACE
 DWIDGET_USE_NAMESPACE
 DCORE_USE_NAMESPACE
-using namespace PolkitQt1;
-
 int main(int argc, char *argv[])
 {
     DApplication a(argc, argv);
@@ -40,9 +27,6 @@ int main(int argc, char *argv[])
                                 "Deepin PC Manager is an application tool designed to help users "
                                 "quickly manage, maintain, and optimize computer systems."));
     a.setQuitOnLastWindowClosed(false);
-
-    DLogManager::registerConsoleAppender();
-    DLogManager::registerFileAppender();
 
     MainWindow w;
     Dtk::Widget::moveToCenter(&w);

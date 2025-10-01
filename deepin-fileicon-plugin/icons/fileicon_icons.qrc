@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/icons/deepin/builtin">
+        <file>icons/deepin-file-icon.svg</file>
+    </qresource>
+</RCC>

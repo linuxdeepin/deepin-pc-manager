@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icons/deepin/builtin">
+        <file>icons/deepin-host-modify.svg</file>
+        <file>icons/dcc_ok_tip_20px.svg</file>
+    </qresource>
+</RCC>

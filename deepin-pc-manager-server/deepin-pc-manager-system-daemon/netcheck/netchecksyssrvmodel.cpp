@@ -4,8 +4,8 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 
 #include "netchecksyssrvmodel.h"
-#include "window/modules/common/invokers/invokerfactory.h"
-#include "window/modules/common/common.h"
+#include "invokers/invokerfactory.h"
+#include "common.h"
 
 #include <QDebug>
 #include <QProcess>
@@ -51,9 +51,9 @@ NetCheckSysSrvModel::NetCheckSysSrvModel(QObject *parent)
                                                                             "org.freedesktop.NetworkManager",
                                                                             ConnectType::SYSTEM, this);
 
-    m_netWorkDBusInter = InvokerFactory::GetInstance().CreateInvoker("org.deepin.dde.Network1",
-                                                                     "/org/deepin/dde/Network1",
-                                                                     "org.deepin.dde.Network1",
+    m_netWorkDBusInter = InvokerFactory::GetInstance().CreateInvoker("com.deepin.system.Network",
+                                                                     "/com/deepin/system/Network",
+                                                                     "com.deepin.system.Network",
                                                                      ConnectType::SYSTEM, this);
 
     //    startCheckNetDevice();

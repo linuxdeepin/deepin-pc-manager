@@ -6,13 +6,13 @@ Exec=dbus-send --print-reply --dest=com.deepin.pc.manager /com/deepin/pc/manager
 GenericName=PC Manager
 Icon=deepin-pc-manager
 Name=Deepin PC Manager
+OnlyShowIn=Deepin
 StartupNotify=false
 Terminal=false
 Type=Application
 X-Deepin-TurboType=dtkwidget
 X-Deepin-Vendor=deepin
 X-MultipleArgs=false
-
 
 Comment[en_US]=Deepin PC Manager is an application tool designed to help users quickly manage, maintain, and optimize computer systems.
 Comment[zh_CN]=电脑管家是一款帮助用户快速管理、维护和优化计算机系统的应用工具。

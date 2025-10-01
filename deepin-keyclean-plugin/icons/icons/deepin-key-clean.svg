@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ICON/Security_tools/密钥环</title>
+    <defs>
+        <filter x="-13.8%" y="-12.7%" width="126.6%" height="126.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0.3930274%" x2="50%" y2="188.952791%" id="linearGradient-2">
+            <stop stop-color="#C9C9C9" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="16.9675202 24.4882496 0 41.4557699 1.06047002 49.93953 8.48376012 51 10.6047002 44.6371799 13.7861102 44.6371799 16.9675202 41.4557699 15.9070502 37.2138898 20.1489303 39.3348298 26.5117504 32.9720097"></polygon>
+        <filter x="-9.6%" y="-10.3%" width="120.1%" height="120.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-1" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.630784988   0 0 0 0 0.630893409   0 0 0 0 0.630770743  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="1" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.999901831   0 0 0 0 1   0 0 0 0 0.999879897  0 0 0 0.806855742 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M24.762453,5.55509158 L37.4946734,5.55509158 C41.5926263,5.55509158 44.9146734,8.87713874 44.9146734,12.9750916 L44.9146734,26.767782 C44.9146734,30.8657348 41.5926263,34.187782 37.4946734,34.187782 L24.762453,34.187782 C20.6645002,34.187782 17.342453,30.8657348 17.342453,26.767782 L17.342453,12.9750916 C17.342453,8.87713874 20.6645002,5.55509158 24.762453,5.55509158 Z" id="path-5"></path>
+        <filter x="-7.3%" y="-7.0%" width="114.5%" height="114.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.495167125 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.999901831   0 0 0 0 1   0 0 0 0 0.999879897  0 0 0 0.263111034 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="ICON/Security_tools/密钥环" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" fill="#FF5C63" opacity="0" x="0" y="0" width="56" height="56"></rect>
+        <g id="编组" filter="url(#filter-1)" transform="translate(4.000000, 1.000000)">
+            <g id="路径-18">
+                <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use stroke-opacity="0.101956881" stroke="#979797" stroke-width="1.06" xlink:href="#path-3"></use>
+            </g>
+            <g id="矩形" transform="translate(31.128563, 19.871437) rotate(-315.000000) translate(-31.128563, -19.871437) ">
+                <use fill="#46454D" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+            </g>
+            <circle id="椭圆形" fill="#FFFFFF" cx="31.1326904" cy="8.96025936" r="2.5"></circle>
+        </g>
+    </g>
+</svg>

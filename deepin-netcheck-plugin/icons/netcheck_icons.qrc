@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icons/deepin/builtin">
+        <file>icons/deepin-net-check.svg</file>
+        <file>icons/dcc_yellow_tip_32px.svg</file>
+        <file>icons/dcc_net_check_96px.svg</file>
+    </qresource>
+</RCC>

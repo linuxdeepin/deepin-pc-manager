@@ -1,9 +1,3 @@
-<!--
-SPDX-FileCopyrightText: 2024 UnionTech Software Technology Co., Ltd.
-
-SPDX-License-Identifier: GPL-3.0-or-later
--->
-
 <node>
   <interface name="com.deepin.pc.manager.netcheck">
     <property name="Availabled" type="b" access="read"></property>

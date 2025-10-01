@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+"http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+	<vendor />
+	<vendor_url />
+	<icon_name>stock_person</icon_name>
+        <action id="com.deepin.deepin-pc-manager.checkAuthentication">
+		<description>Check Authentication</description>
+		<message>Authentication is required to perform this action</message>
+		<defaults>
+			<allow_any>no</allow_any>
+			<allow_inactive>no</allow_inactive>
+			<allow_active>auth_self</allow_active>
+		</defaults>
+		<description xml:lang="bo">ཞིབ་བཤེར་ངོས་འཛིན།</description>
+		<message xml:lang="bo">མིག་སྔའི་བཀོལ་སྤྱོད་ལ་གསང་ཨང་གིས་ར་སྤྲོད་བྱ་དགོས།</message>
+		<description xml:lang="es">Verificar autenticación</description>
+		<message xml:lang="es">Se requiere autenticación para realizar esta acción</message>
+		<description xml:lang="sq">Kontrolloni Mirëfilltësimin</description>
+		<message xml:lang="sq">Për të kryer këtë veprim lypset mirëfilltësim</message>
+		<description xml:lang="fr">Vérification de l'authentication</description>
+		<message xml:lang="fr">L'authentification est requise pour effectuer cette action</message>
+		<description xml:lang="hr">Provjeri ovjeru</description>
+		<message xml:lang="hr">Potreban je ovjera za izvođenje ove radnje</message>
+		<description xml:lang="sr">Провера идентификације</description>
+		<message xml:lang="sr">Идентификација је неопходана за вршење ове радње</message>
+		<description xml:lang="ms">Periksa Pengesahihan</description>
+		<message xml:lang="ms">Pengesahihan diperlukan untuk membuat tindakan ini</message>
+		<description xml:lang="pt_BR">Check Authentication</description>
+		<message xml:lang="pt_BR">A autenticação é necessária para executar esta ação</message>
+		<description xml:lang="cs">Check Authentication</description>
+		<message xml:lang="cs">K provedení této akce je zapotřebí ověření se</message>
+		<description xml:lang="ug">دەلىللەشنى تەكشۈرۈش</description>
+		<message xml:lang="ug">بۇ مەشغۇلات دەلىللەش تەلەپ قىلىنىدۇ</message>
+		<description xml:lang="zh_HK">Check Authentication</description>
+		<message xml:lang="zh_HK">當前操作需要密碼認證</message>
+		<description xml:lang="de">Authentifizierung prüfen</description>
+		<message xml:lang="de">Zum Ausführen dieser Aktion ist eine Authentifizierung erforderlich</message>
+		<description xml:lang="uk">Перевірка справжності</description>
+		<message xml:lang="uk">Для виконання цієї дії потрібна аутентифікація</message>
+		<description xml:lang="tr">Duğrulamayı Kontrol Et</description>
+		<message xml:lang="tr">Bu işlemi gerçekleştirmek için doğrulama gerekiyor</message>
+		<description xml:lang="pt">Verifique a autenticação</description>
+		<message xml:lang="pt">É necessária a autenticação para realizar esta ação</message>
+		<description xml:lang="fi">Check Authentication</description>
+		<message xml:lang="fi">Tämän toiminnon suorittaminen edellyttää todennusta</message>
+		<description xml:lang="ca">Comprova l'autenticació</description>
+		<message xml:lang="ca">Cal autenticació per dur a terme aquesta acció</message>
+		<description xml:lang="it">Check Authentication</description>
+		<message xml:lang="it">Autenticazione richiesta per eseguire questa operazione</message>
+		<description xml:lang="hu">Hitelesítés ellenőrzése</description>
+		<message xml:lang="hu">Hitelesítés szükséges a művelet végrehajtásához</message>
+		<description xml:lang="nl">Check Authentication</description>
+		<message xml:lang="nl">Voer je wachtwoord in om deze actie uit te voeren</message>
+		<description xml:lang="zh_CN">Check Authentication</description>
+		<message xml:lang="zh_CN">当前操作需要密码认证</message>
+		<description xml:lang="sl">Preverjanje istovetnosti</description>
+		<message xml:lang="sl">Za izvedbo tega dejanja je potrebna overitev</message>
+		<description xml:lang="en_US">Check Authentication</description>
+		<message xml:lang="en_US">Authentication is required to perform this action</message>
+		<description xml:lang="az">Kimlik yoxlaması</description>
+		<message xml:lang="az">Bu əməli yerinə yetirmək üçün kimlik yoxlaması tələb olunur</message>
+		<description xml:lang="zh_TW">Check Authentication</description>
+		<message xml:lang="zh_TW">目前操作需要密碼認證</message>
+		<description xml:lang="pl">Sprawdź Autoryzację</description>
+		<message xml:lang="pl">Wymagana jest autoryzacja w celu zrealizowania tej czynności</message>
+	</action>
+</policyconfig>

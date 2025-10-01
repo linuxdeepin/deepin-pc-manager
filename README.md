@@ -1,9 +1,3 @@
-<!--
-SPDX-FileCopyrightText: 2024 UnionTech Software Technology Co., Ltd.
-
-SPDX-License-Identifier: GPL-3.0-or-later
--->
-
 # Deepin PC Manager
 Deepin PC Manager is an application tool designed to help users quickly manage, maintain, and optimize computer systems.
 

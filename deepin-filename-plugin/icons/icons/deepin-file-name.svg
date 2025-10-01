@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ICON/Security_tools/长命名修改</title>
+    <defs>
+        <filter x="-31.4%" y="-23.3%" width="158.1%" height="160.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="-2.81825888%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#00CAFF" offset="0%"></stop>
+            <stop stop-color="#007EFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="41" height="45" rx="4"></rect>
+        <filter x="-29.3%" y="-20.0%" width="158.5%" height="153.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.581939518   0 0 0 0 1  0 0 0 0.231013371 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#CBE8FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M38.9344803,19.3054515 C38.5351098,18.8981828 37.8352828,18.8981828 37.4359123,19.3054515 L21.7273389,35.3169221 C21.6626715,35.3828684 21.613233,35.4682085 21.5903896,35.5574121 L20.0195768,41.3018251 C19.9701012,41.4841339 20.015751,41.6819728 20.14126,41.8215927 C20.2439627,41.9340916 20.3884894,42 20.5368418,42 C20.5710513,42 20.6014721,41.9961364 20.6357187,41.9922728 L26.7023469,40.8325115 C26.8088383,40.8131178 26.9077524,40.7588001 26.9838229,40.6812252 L42.6923963,24.6658531 C43.10317,24.24313 43.10317,23.5565459 42.6885705,23.1337849 L38.9344803,19.3054515 Z M39.5506593,26.3337533 L35.8042208,22.513185 C35.6140443,22.3192475 35.6254475,21.997281 35.8270642,21.7917148 C36.0286438,21.5861487 36.3481179,21.57452 36.5345057,21.7684575 L40.2809814,25.5890258 C40.4711579,25.7790997 40.4597547,26.1049298 40.2581751,26.3104581 C40.0565212,26.5160621 39.7408358,26.5276908 39.5506593,26.3337533 Z" id="path-6"></path>
+        <filter x="-8.7%" y="-4.3%" width="117.4%" height="117.4%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.436302006   0 0 0 0 0.88868463  0 0 0 0.347055288 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ICON/Security_tools/长命名修改" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" fill="#FF5C63" opacity="0" x="0" y="0" width="56" height="56"></rect>
+        <g id="文本编辑_填充" filter="url(#filter-1)" transform="translate(7.000000, 6.000000)">
+            <g id="矩形">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <rect id="矩形" fill="#FFFFFF" x="8" y="10" width="24" height="2" rx="1"></rect>
+            <rect id="矩形" fill="#FFFFFF" x="8" y="17" width="24" height="2" rx="1"></rect>
+            <rect id="矩形" fill="#FFFFFF" x="8" y="24" width="10" height="2" rx="1"></rect>
+            <g id="形状" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                <use fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+            </g>
+        </g>
+    </g>
+</svg>

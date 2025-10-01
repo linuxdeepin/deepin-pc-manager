@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/icons/deepin/builtin">
+        <file>icons/deepin-app-repair.svg</file>
+    </qresource>
+</RCC>

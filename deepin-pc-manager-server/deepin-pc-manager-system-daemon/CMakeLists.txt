@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2024 UnionTech Software Technology Co., Ltd.
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-
 set(BIN_NAME deepin-pc-manager-system-daemon)
 
 # 设置包含当前目录，建议头文件的包含写全路径
@@ -19,19 +15,13 @@ find_package(Dtk REQUIRED COMPONENTS Core Widget)
 
 # 建议对不同的模块进行分类，可使用通配符，可指定具名文件
 file(GLOB_RECURSE SRCS
-    "disk/*.h"
-    "disk/*.cpp"
-    "localcache/*.h"
-    "localcache/*.cpp"
+    "*.xml"
+    "src/*.h"
+    "src/*.cpp"
     "netcheck/*.h"
     "netcheck/*.cpp"
-    "main.cpp"
-    "writedbusdata.cpp"
-    "writedbusdata.h"
-    "daemon_adaptor.cpp"
-    "daemon_adaptor.h"
-    "../../deepin-pc-manager/src/window/modules/common/*.cpp"
-    "../../deepin-pc-manager/src/window/modules/common/*.h"
+    "../../deepin-pc-manager/src/window/common/*.cpp"
+    "../../deepin-pc-manager/src/window/common/*.h"
 )
 
 # 生成可执行文件
@@ -58,8 +48,7 @@ target_include_directories(${BIN_NAME} PUBLIC
   Dtk::Widget
   PkgConfig::GSettings
   PkgConfig::LibParted
-  ../../deepin-pc-manager/
-  ../../deepin-pc-manager/src/
+  ../../deepin-pc-manager/src/window/common/
 )
 
 target_link_libraries(${BIN_NAME} PRIVATE
@@ -82,4 +71,3 @@ install(FILES com.deepin.pc.manager.system.daemon.conf DESTINATION ${CMAKE_INSTA
 install(FILES com.deepin.pc.manager.system.daemon.service DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/dbus-1/system-services)
 install(FILES config/netcheck/com.deepin.pc.manager.netcheck.conf DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/dbus-1/system.d)
 install(FILES config/netcheck/com.deepin.pc.manager.netcheck.service DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/dbus-1/system-services)
-install(FILES deepin-pc-manager-system-daemon.service DESTINATION /lib/systemd/system)

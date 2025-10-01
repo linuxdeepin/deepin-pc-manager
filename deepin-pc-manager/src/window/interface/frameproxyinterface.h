@@ -4,12 +4,9 @@
 
 #pragma once
 
-#include "../namespace.h"
-
 class QWidget;
 class QString;
 
-DEF_NAMESPACE_BEGIN
 class ModuleInterface;
 
 class FrameProxyInterface
@@ -33,5 +30,3 @@ public:
     // 其它模块设置后退按钮状状态
     virtual void setBackForwardButtonStatus(bool status) = 0;
 };
-
-DEF_NAMESPACE_END

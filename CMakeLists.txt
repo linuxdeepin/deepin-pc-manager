@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2024 UnionTech Software Technology Co., Ltd.
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-
 cmake_minimum_required(VERSION 3.13)
 
 # If do't define version number, specify the version number
@@ -46,6 +42,13 @@ endif()
 
 # 版本号宏定义
 add_compile_definitions(QMAKE_VERSION="${VERSION}")
-
 add_subdirectory(deepin-pc-manager)
 add_subdirectory(deepin-pc-manager-server)
+add_subdirectory(deepin-netcheck-plugin)
+add_subdirectory(deepin-autostart-plugin)
+add_subdirectory(deepin-apprepair-plugin)
+add_subdirectory(deepin-hostmodify-plugin)
+add_subdirectory(deepin-filename-plugin)
+add_subdirectory(deepin-keyclean-plugin)
+add_subdirectory(deepin-fcitxrepair-plugin)
+add_subdirectory(deepin-fileicon-plugin)

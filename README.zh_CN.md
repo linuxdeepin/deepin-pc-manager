@@ -1,9 +1,3 @@
-<!--
-SPDX-FileCopyrightText: 2024 UnionTech Software Technology Co., Ltd.
-
-SPDX-License-Identifier: GPL-3.0-or-later
--->
-
 # 电脑管家
 电脑管家是一款帮助用户快速管理、维护和优化计算机系统的应用工具。
 

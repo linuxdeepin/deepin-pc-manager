@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=com.deepin.pc.manager.session.daemon
-Exec=/usr/bin/deepin-pc-manager-session-daemon

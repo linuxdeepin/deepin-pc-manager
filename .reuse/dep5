@@ -14,12 +14,12 @@ Copyright: None
 License: CC0-1.0
 
 #config
-Files: *.service *.desktop *.conf
+Files: *.service *.desktop *.conf *.policy
 Copyright: UnionTech Software Technology Co., Ltd.
 License: CC0-1.0
 
 # Project file
-Files: *.pro *.prf *.pri *.qrc
+Files: *.pro *.prf *.pri *.qrc *.txt
 Copyright: None
 License: CC0-1.0
 
@@ -29,11 +29,11 @@ Copyright: None
 License: CC0-1.0
 
 # translation
-Files: deepin-pc-manager/translations/*  deepin-pc-manager-server/deepin-pc-manager-session-daemon/translations/*
+Files: *.ts *.qm
 Copyright: UnionTech Software Technology Co., Ltd.
 License: CC0-1.0
 
 # svg
-Files: deepin-pc-manager/src/window/icons/*.svg deepin-pc-manager/src/window/icons/*.png
+Files: *.svg *.png
 Copyright: None
 License: CC0-1.0
